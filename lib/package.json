@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-fonts-converter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/vite-plugin-fonts-converter.umd.cjs",
+  "module": "./dist/vite-plugin-fonts-converter.js",
+  "exports": {
+    ".": {
+        "import": "./dist/vite-plugin-fonts-converter.js",
+        "require": "./dist/vite-plugin-fonts-converter.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
